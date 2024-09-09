@@ -1,0 +1,47 @@
+# Ignore the virtual environment folder
+mailenv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Static and media files
+/static/
+/media/
+
+# Virtual environment
+*.env
+*.venv
+
+# IDE settings (Optional)
+.vscode/
+.idea/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Python virtual environments
+*.env
+*.venv
+.env/
+.venv/
+
+# Ignore pytest cache
+.pytest_cache/
